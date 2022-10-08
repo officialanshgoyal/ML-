@@ -1,0 +1,24 @@
+Git process
+------------
+> Create new repository 
+> Provide valid name
+> Select Public repo 
+> finish 
+ 
+
+
+GoTo your folder (for e.g Day 7 )
+type cmd in address bar then enter
+
+
+GIT Commands.   
+--------------- 
+git init                      # Intialize the GIT folder 
+git add .                     # Add all files / folders in git folder
+git config user.name "Your NAME"
+git config user.email"your email @id.com"
+git remote and orgin  " your repolink.git"
+
+
+git commit -m "any message"
+git push -u origin main
