@@ -40,15 +40,19 @@ ttk.Label(app, text='Column 1').place(x=100,y=10)
 ttk.OptionMenu(app, col1, *Values ).place(x = 100,y=40)
 
 
+## Option Menu 2
 
-
-
+col2 = ttk.Variable(app)
+col2.set(Values[0])
+ttk.Label(app,text='Column 2').place(x=150,y=80)
+ttk.OptionMenu(app,col2, *Values ).place(x=150,y=110)
 
 
 ## Option Menu 3
 col3 = ttk.Variable(app)
-col3.set(values[0])
-ttk.Label(app,text= 'column3').place
+col3.set(Values[0])
+ttk.Label(app,text='Column 3').place(x=150,y=150)
+ttk.OptionMenu(app,col3, *Values).place(x=150,y=180)
 
 
 
