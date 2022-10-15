@@ -7,8 +7,8 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import seaborn as sns
 import tkinter as ttk
-from  PIL import ImageTk, Image
-
+from  PIL import ImageTk, Image  
+ 
 data=pd.read_csv('treadmil-users.csv')
 
 app = ttk.Tk()

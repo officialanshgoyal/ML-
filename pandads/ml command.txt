@@ -1,0 +1,17 @@
+python -m pip install scikit-learn
+
+-------------------
+Bring the data 
+preprocessing /Analysis)
+
+
+split data (Trainig ,Testing)
+ from sklearn.model_selection import train _test_split
+ xtrain , xtest ,ytrain,ytest = train_test_split( 
+          features, target ,test_size=0.25,
+          random_state = 101)
+
+Train The MODEL
+ from sklear.linear_model import LinearRegression 
+ model 
+           
